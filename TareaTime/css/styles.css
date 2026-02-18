@@ -1,9 +1,8 @@
 :root{
-    --color-fondo: #6f9fb3;
-    --color-boton: #173a74;
+    --color-fondo: #A58DC2;
+    --color-boton: #6D4177;
     --color-input: #d6d6d6;
     --color-texto: #333;
-    --color-fondoR: #A58DC2;
 }
 
 body{
