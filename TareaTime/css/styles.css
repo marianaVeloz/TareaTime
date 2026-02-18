@@ -1,8 +1,10 @@
 :root{
-    --color-fondo: #A58DC2;
-    --color-boton: #6D4177;
+    --color-fondo: #6f9fb3;
+    --color-boton: #173a74;
+    --color-botonR: #6D4177;
     --color-input: #d6d6d6;
     --color-texto: #333;
+    --color-fondoR: #A58DC2;
 }
 
 body{
@@ -17,7 +19,7 @@ body{
 .body-registro{
     min-height: 100vh;
     margin: 0;
-    background: var(--color-fondo);
+    background: var(--color-fondoR);
     display: grid;
     place-items: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -59,7 +61,20 @@ body{
 }
 
 .boton-login:hover{
-    background: #6D4177;
+    background: #1c458a;
+}
+
+.boton-registro{
+    background: var(--color-botonR);
+    color: white;
+    border-radius: 12px;
+    padding: 10px 25px;
+    margin-top: 10px;
+    box-shadow: 0 8px 14px rgba(0,0,0,.18);
+}
+
+.boton-registro:hover{
+    background: #5a3563;
 }
 
 .crear-cuenta{
