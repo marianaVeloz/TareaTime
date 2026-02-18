@@ -3,12 +3,22 @@
     --color-boton: #173a74;
     --color-input: #d6d6d6;
     --color-texto: #333;
+    --color-fondoR: #A58DC2;
 }
 
 body{
     min-height: 100vh;
     margin: 0;
     background: var(--color-fondo);
+    display: grid;
+    place-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body-registro{
+    min-height: 100vh;
+    margin: 0;
+    background: var(--color-fondoR);
     display: grid;
     place-items: center;
     font-family: Arial, Helvetica, sans-serif;
